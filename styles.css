@@ -1,0 +1,132 @@
+#banner{
+	width: 100%;
+}
+
+#logo {
+	width: 30%;
+}
+
+#hamburgerThing{
+	width: 5%;
+}
+
+#userIcon{
+	width: 5%;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Caveat', cursive;
+	color: black;
+	text-align: center;
+}
+  h1{
+  	font-size: 260%;
+  }
+
+  h2{
+  	font-size: 200%;
+  	padding: 20px;
+  }
+  p{
+  	font-size: 150%;
+  	color: black;
+  }
+
+
+.movies{
+	width: 330px;
+	height: 500px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+li{
+	list-style-type: none;
+	line -height: 30px;
+}
+
+*{
+		margin: 0;
+		padding: 0;
+}
+
+#topbanner{
+		display: flex;
+}
+
+#banner{
+		position: relative;
+}
+
+#logo, #topbanner > div, h1, #topbanner > h2 {
+		position: absolute;
+}
+
+#logo{
+		z-index: 1;
+		transform: translate(0,10%);
+}
+
+#topbanner > div{
+	transform: translate(80%, 130%);
+}
+
+h1 {
+	transform: translate(1%, 600%);
+	font-size: 60px;
+	text align: left;
+}
+
+#topbanner > h2{
+	transform: translate(15%, 650%);
+	background-color: white;
+	border-radius: 5px;
+
+}
+
+#cards{
+		display: flex;
+		justify-content:space-evenly;
+}
+
+#cards2{
+		display: flex;
+		justify-content:space-evenly;
+}
+
+
+#cards3{
+		display: flex;
+		justify-content:space-evenly;
+}
+
+#navagationmenu{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
